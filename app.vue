@@ -1,5 +1,3 @@
 <template>
-  <div>
-    <p>Testando novamente!</p>
-  </div>
+  <NuxtPage/>
 </template>
