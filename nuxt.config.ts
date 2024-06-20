@@ -16,6 +16,7 @@ export default defineNuxtConfig({
     "@assets": fileURLToPath(new URL("./assets/svgs", import.meta.url)),
     "@composables": fileURLToPath(new URL("./composables", import.meta.url)),
     "@interfaces": fileURLToPath(new URL("./utils/interfaces", import.meta.url)),
+    "@mock": fileURLToPath(new URL("./utils/data/mock", import.meta.url)),
     "@plugins": fileURLToPath(new URL("./utils/plugins", import.meta.url)),
   },
 
